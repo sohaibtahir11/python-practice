@@ -101,13 +101,21 @@
 #     Status="Senior"
 
 # print("Your Status is:", Status)
-num1=int(input("write the first number: "))
-num2=int(input("write the second number: "))
-num3=int(input("write the Third number: "))
+# num1=int(input("write the first number: "))
+# num2=int(input("write the second number: "))
+# num3=int(input("write the Third number: "))
 
-if(num1>num2 and num1>num3):
-    print(num1,"is the greatest number!")
-elif(num2>num1 and num2>num3):
-    print(num2,"is the Greatest number!")
+# if(num1>num2 and num1>num3):
+#     print(num1,"is the greatest number!")
+# elif(num2>num1 and num2>num3):
+#     print(num2,"is the Greatest number!")
+# else:
+#     print(num3,"is the greatest number!")
+
+# Quesiton 6
+year = int(input("write any number: "))
+
+if (year % 4 == 0 and year % 100 != 0):
+    print("Its a leap year")
 else:
-    print(num3,"is the greatest number!")
+    print("It's not leap year")
